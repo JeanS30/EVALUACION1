@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: black;
+    color: aquamarine;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar:hover {
+    background-color: rgb(22, 39, 0);
+}   
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}     
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: aquamarine;
+    text-decoration: none;
+    font-size: 18px;
+}   
+
+.Menu a:hover {
+    text-decoration: underline;
+}           
+
+.hero {
+    background-image: url('https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero a {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hero a:hover {
+    background-color: #c70039;
+}   
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+/* creado por IA */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+article {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+article:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+article img {
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.Contacto {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: white;
+} 
+
+footer {
+    background-color: #1a1a1a;
+    color: aquamarine;
+    text-align: center;
+    padding: 15px;
+}
